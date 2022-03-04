@@ -1,0 +1,1033 @@
+/*
+
+	author:abulkhair;
+	website:none;
+	mail:abulkhair5277@gmail.com;
+
+
+*/
+
+
+/*
+
+	====index====
+	1.Home 
+	2.About Us
+	3.Our Services 
+	4.Prices
+	5.Contact
+
+               
+
+
+	color
+	#ed145b
+	#f4f4f4
+	#2b2b2b
+
+*/
+
+/* theme css */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,300;1,400&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
+
+/* global css */
+.body{
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+h5{
+
+}
+
+h6{
+
+}
+
+p{
+
+}
+/* banner */
+.nav-head{
+
+}
+.img-cstm{
+
+}
+.nav-link.js-scroll-trigger {
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 350;
+}
+.nav-link.js-scroll-trigger.active {
+    color: #F42059;
+}
+.fa.fa-bars {
+    color: #F42059;
+    font-size: 35px;
+    font-weight: 300px;
+}
+
+.banner {
+    background-image: url(../img/banner-one.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.banner-contant {
+    text-align: center;
+}
+.banner-contant h1 {
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.banner-contant h1 b {
+    font-weight: 500;
+}
+.banner-contant span {
+    width: 25%;
+    border: 1px solid #F42059;
+    display: inherit;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.banner-contant h6 {
+    font-size: 17px;
+    color: white;
+    font-weight: 300;
+}
+.banner-btn {
+    margin-top: 50px;
+    color: #F42059;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 8px 25px;
+    border: 1px solid gray;
+    font-weight: 450;
+    background: transparent;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.banner-btn:hover{
+	background-color: #F42059;
+	color: white;
+}
+
+/* about section */
+.about{
+	padding-top: 80px;
+	padding-bottom:0px;
+    background-color: #F8F9FA;
+}
+.about-contant{
+	text-align: left;
+}
+.about-contant h2{
+	margin-bottom: 15px;
+}
+.about-contant h2 i {
+    font-size: 35px;
+    font-weight: 500;
+}
+.about-contant p {
+    font-size: 17px;
+    font-weight: 350;
+}
+.about-contant span {
+    display: inherit;
+    border: 1px solid #F42059;
+    width: 40%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.about-contant label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color: #F42059;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.fa.fa-play {
+    border: 1px solid #F42059;
+    padding: 8px 10px 8px 10px;
+    border-radius: 50px;
+    margin-left: 10px;
+    color: #F42059;
+}
+.about-img{
+    text-align: center;
+}
+.about-img img {
+    width: 110%;
+    margin-top: 20px;
+}
+
+/* service section */
+.services {
+    margin-top: 100px;
+    padding: 0px;
+}
+.service-contant {
+    text-align: center;
+}
+.service-contant h2{
+    
+}
+.service-contant h2 i {
+    font-size: 45px;
+    font-weight: 350;
+    color: black;
+}
+.service-contant span {
+    display: inherit;
+    border: 1px solid #F42059;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.service-contant p {
+    font-size: 16px;
+    color: black;
+}
+.service-one {
+    text-align: center;
+    margin-top: 50px;
+}
+.service-one img {
+    border: 1px solid #F42059;
+    padding: 28px 10px;
+    border-radius: 15px;
+}
+.service-one h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 15px;
+    color: #F42059;
+    font-weight: 450;
+}
+.service-two{
+    text-align: center;
+    margin-top: 50px;
+}
+.service-two img{
+    border: 1px solid #F42059;
+    padding: 22px 10px;
+    border-radius: 15px;
+}
+.service-two h4{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 15px;
+    color: #F42059;
+    font-weight: 450;
+}
+.service-three {
+    text-align: center;
+    margin-top: 50px;
+}
+.service-three img{
+    border: 1px solid #F42059;
+    padding: 20px 20px;
+    border-radius: 15px;
+}
+.service-three h4{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 15px;
+    color: #F42059;
+    font-weight: 450;
+}
+.service-contant-two{
+    background-image: url(../img/banner-one.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top-center;
+}
+.quote-cstm{
+    text-align: center;
+}
+.fa.fa-quote-left {
+    color: #F42059;
+    font-size: 35px;
+    padding-top: 60px;
+}
+.fa.fa-quote-right {
+    color: #F42059;
+    font-size: 35px;
+    padding-top: 0px;
+    padding-bottom: 60px;
+}
+.service-contant-cstm{
+    text-align: center;
+}
+.service-contant-cstm p {
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+.service-icon{
+    text-align: center;
+    margin-top: 45px;
+}
+.fa.fa-chevron-left {
+    color: #F42059;
+    font-size: 35px;
+}
+.fa.fa-chevron-right{
+    color: #F42059;
+    font-size: 35px;
+}
+
+/* prices section */
+
+.prices {
+    background: #F4F4F4;
+    padding-bottom:20px;
+}
+.price-contant {
+    text-align: center;
+}
+.price-contant h2{
+    padding-bottom: 15px;
+}
+.price-contant h2 i {
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: gray;
+}
+.price-contant span {
+    border: 1px solid #F42059;
+    display: inherit;
+    width: 25%;
+    margin: 0 auto;
+}
+.price-contant p {
+    font-size: 16px;
+    font-weight: 350;
+    color: gray;
+    margin-top: 15px;
+}
+.card-item {
+    margin-top: 50px;
+}
+.card {
+    text-align: center;
+    color: gray;
+    margin-top: 15px;
+}
+.card-header {
+    background-color: #5A5A5A;
+    position: relative;
+    transition: .4s ease-in-out;
+}
+.card-header:hover{
+    background-color: #F42059;
+    display: block;
+}
+.card-header h3 {
+    color: white;
+}
+.card-header h6{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.card-btn {
+    width: 50%;
+    position: absolute;
+    margin: 85px 55px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+    padding: 3px;
+}
+.card-btn-two {
+    width: 65%;
+    padding: 5px;
+    border: 1px solid gray;
+    background-color: #F42059;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    color: white;
+    font-size: 15px;
+}
+.card-body{
+}
+.card-body h6 {
+    font-size: 12px;
+    padding-top: 3px;
+}
+/* work section */
+.work {
+    padding-top: 75px;
+    padding-bottom: 30px;
+}
+.work-cstm {
+    text-align: center;
+}
+.work-cstm img {
+    width: 75%;
+}
+.work-contant{
+
+}
+.work-contant h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #F42059;
+}
+.work-contant p {
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+}
+
+/* update section */
+.update {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+.update-contant {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.update-contant h2 i{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: gray;
+}
+.update-contant span{
+    border: 1px solid #F42059;
+    display: inherit;
+    width: 25%;
+    margin: 0 auto;
+}
+.update-contant p{
+    font-size: 16px;
+    font-weight: 350;
+    color: gray;
+    margin-top: 15px;
+}
+.card {
+
+}
+.card img {
+    position: relative;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+.hover-btn {
+    position: absolute;
+    background-color: #f2376dbd;
+    height: 62%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .4s ease-in-out;
+}
+.fa.fa-search{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    top: 43%;
+    left: 48%;
+
+}
+.card:hover .hover-btn{
+    opacity: 1;
+}
+
+.card-body {
+    text-align: left;
+}
+.card-body h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+.card-body p {
+    font-size: 15px;
+    font-weight: 300;
+}
+.show-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+.show-btn h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #FB2957;
+}
+.fa.fa-angle-down {
+    color: #FB2957;
+    font-size: 35px;
+}
+.psd {
+    padding-top: 115px;
+    background-image: url(../img/banner-one.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.psd-contant {
+    text-align: center;
+}
+.psd-contant h2 i {
+    font-size: 35px;
+    color: white;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.psd-contant span{
+    border: 1px solid #F42059;
+    display: inherit;
+    width: 25%;
+    margin: 0 auto;
+}
+.psd-contant p{
+    font-size: 16px;
+    font-weight: 350;
+    color: white;
+    margin-top: 15px;
+}
+.psc-btn{
+    width: 25%;
+    padding: 5px;
+    border: 1px solid gray;
+    background-color: #F42059;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    color: white;
+    font-size: 15px;
+}
+.download{
+    background-color: #F4F4F4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.download-img{
+
+}
+.download-img img {
+    display: block;
+    width: 540px;
+}
+.download-contant {
+    float: left;
+}
+.download-contant h2 i {
+    font-size: 30px;
+    font-weight: 400;
+    color: gray;
+}
+.download-contant span{
+    border: 1px solid #F42059;
+    display: inherit;
+    width: 25%;
+    margin: 0 auto;
+}
+.download-contant p{
+    font-size: 16px;
+    font-weight: 350;
+    color: gray;
+    margin-top: 15px;
+}
+.download-btn{
+    width: 25%;
+    padding: 5px;
+    border: 1px solid gray;
+    background-color: #F42059;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    color: white;
+    font-size: 15px;
+}
+.footer {
+    background: #3E3E3E;
+    padding: 30px 0px 30px;
+}
+
+.footer-cstm{
+    text-align: center;
+}
+.footer-cstm i{
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 450;
+}
+.footer-cstm h6{
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 450;
+}
+
+
+
+
+
+
+/* media query */
+
+/* extra small device */
+@media (min-width: 320px) and (max-width: 576px){
+.banner-contant h1 {
+    font-size: 20px;
+}
+.banner-contant span {
+    width: 15%;
+}
+.banner-contant h6 {
+    font-size: 11px;
+}
+.banner-btn {
+    font-size: 13px;
+    padding: 5px 15px;
+}
+.about{
+	padding-top: 30px;
+}
+.about-contant h2 i {
+    font-size: 20px;
+}
+.about-contant p {
+    font-size: 10px;
+}
+.about-img img {
+    width: 90%;
+    margin-top: 50px;
+}
+.service-contant h2 i {
+    font-size: 27px;
+}
+.service-contant p {
+    font-size: 11px;
+}
+.service-contant {
+    margin-top: 0px;
+}
+.fa.fa-quote-left {
+    font-size: 20px;
+}
+.fa.fa-quote-right {
+    font-size: 20px;
+}
+.service-contant-cstm p {
+    font-size: 8px;
+}
+.fa.fa-chevron-left {
+    font-size: 15px;
+}
+.fa.fa-chevron-right{
+    font-size: 15px;
+}
+.price-contant h2 i {
+    font-size: 25px;
+}
+.price-contant p {
+    font-size: 10px;
+}
+.card {
+    margin-top: 15px;
+    width: 60%;
+    margin-left: 78px;
+}
+.card-btn {
+    font-size: 8px;
+    width: 30%;
+    margin: 88px 90px;
+}
+.card-btn-two {
+    width: 40%;
+    font-size: 12px;
+}
+.card-body h6 {
+    font-size: 8px;
+}
+.work-cstm img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+.work-contant h4 {
+    font-size: 14px;
+}
+.work-contant p {
+    font-size: 10px;
+}
+.card-body h5 {
+    font-size: 14px;
+}
+.card-body p {
+    font-size: 12px;
+}
+.hover-btn {
+    height: 60%;
+}
+.show-btn h5 {
+    font-size: 13px;
+}
+.fa.fa-angle-down {
+    font-size: 25px;
+}
+.psd-contant h2 i {
+    font-size: 25px;
+}
+.psd-contant p{
+    font-size: 12px;
+}
+.psc-btn{
+    width: 20%;
+    font-size: 12px;
+}
+.download-contant h2 i {
+    font-size: 16.5px;
+}
+.download-contant p{
+    font-size: 12px;
+}
+.download-btn{
+    width: 30%;
+    font-size: 10px;
+}
+.footer-cstm i{
+    font-size: 10px;
+}
+.footer-cstm h6{
+    font-size: 10px;
+}
+}
+
+/* small device */
+@media (min-width: 576.01px) and (max-width: 768px){
+.banner-contant h1 {
+    font-size: 28px;
+}
+.banner-contant span {
+    width: 20%;
+}
+.banner-contant h6 {
+    font-size: 12px;
+}
+.banner-btn {
+    font-size: 14px;
+    padding: 7px 18px;
+}
+.about-contant h2 i {
+    font-size: 23px;
+}
+.about-contant p {
+    font-size: 12px;
+}
+.about-img img {
+    width: 100%;
+    margin-top: 70px;
+}
+.service-contant h2 i {
+    font-size: 30px;
+}
+.service-contant p {
+    font-size: 14px;
+    color: black;
+}
+.fa.fa-quote-left {
+    font-size: 25px;
+}
+.fa.fa-quote-right {
+    font-size: 25px;
+}
+.service-contant-cstm p {
+    font-size: 12px;
+}
+.fa.fa-quote-left {
+    font-size: 20px;
+}
+.fa.fa-quote-right {
+    font-size: 20px;
+}
+.service-contant-cstm p {
+    font-size: 8px;
+}
+.fa.fa-chevron-left {
+    font-size: 15px;
+}
+.fa.fa-chevron-right{
+    font-size: 15px;
+}
+.price-contant h2 i {
+    font-size: 30px;
+}
+.price-contant p {
+    font-size: 13px;
+}
+.card {
+    margin-top: 15px;
+    width: 60%;
+    margin-left: 95px;
+}
+.card-btn {
+    font-size: 10px;
+    width: 30%;
+    margin: 88px 105px;
+}
+.card-btn-two {
+    width: 45%;
+    font-size: 14px;
+}
+.card-body h6 {
+    font-size: 10px;
+}
+.work-cstm img {
+    width: 55px;
+    margin-bottom: 15px;
+}
+.work-contant h4 {
+    font-size: 16px;
+}
+.work-contant p {
+    font-size: 11px;
+}
+.hover-btn {
+    height: 26%;
+}
+.work-contant h4 {
+    font-size: 14px;
+}
+.card-body h5 {
+    font-size: 14px;
+}
+.card-body p {
+    font-size: 12px;
+}
+.hover-btn {
+    height: 35%;
+}
+.update-contant h2 i{
+    font-size: 30px;
+}
+.update-contant p{
+    font-size: 14px;
+}
+.psd-contant h2 i {
+    font-size: 28px;
+}
+.psd-contant p{
+    font-size: 14px;
+}
+.psc-btn{
+    width: 25%;
+    font-size: 14px;
+}
+.show-btn h5 {
+    font-size: 18px;
+}
+.fa.fa-angle-down {
+    font-size: 30px;
+}
+.download-contant h2 i {
+    font-size: 18px;
+}
+.download-contant p{
+    font-size: 14px;
+}
+.download-btn{
+    width: 38%;
+    font-size: 13px;
+}
+.footer-cstm i{
+    font-size: 12px;
+}
+.footer-cstm h6{
+    font-size: 12px;
+}
+}
+
+/* medium device */
+@media (min-width: 768.01px) and (max-width: 992px){
+.banner-contant h1 {
+    font-size: 32px;
+}
+.banner-contant span {
+    width: 23%;
+}
+.banner-contant h6 {
+    font-size: 13px;
+}
+.banner-btn {
+    font-size: 15px;
+    padding: 8px 22px;
+}
+.about-contant h2 i {
+    font-size: 25px;
+}
+.about-contant p {
+    font-size: 14px;
+}
+.about-img img {
+    width: 100%;
+    margin-top: 130px;
+}
+.service-contant h2 i {
+    font-size: 38px;
+}
+.service-contant p {
+    font-size: 15px;
+    color: black;
+}
+.fa.fa-quote-left {
+    font-size: 30px;
+}
+.fa.fa-quote-right {
+    font-size: 30px;
+}
+.service-contant-cstm p {
+    font-size: 14px;
+}
+.price-contant h2 i {
+    font-size: 35px;
+}
+.price-contant p {
+    font-size: 15px;
+}
+.card {
+    margin-top: 15px;
+    width: 80%;
+    margin-left: 45px;
+}
+.card-btn {
+    font-size: 13px;
+    width: 48%;
+    margin: 88px 65px;
+}
+.card-btn-two {
+    width: 50%;
+    font-size: 16px;
+}
+.card-body h6 {
+    font-size: 11px;
+}
+.work-cstm img {
+    width: 45px;
+    margin-bottom: 15px;
+}
+.work-contant h4 {
+    font-size: 16px;
+}
+.work-contant p {
+    font-size: 12px;
+}
+.card-body h5 {
+    font-size: 15px;
+}
+.card-body p {
+    font-size: 13px;
+}
+.hover-btn {
+    height: 43.5%;
+}
+.psd-contant h2 i {
+    font-size: 30px;
+}
+.psd-contant p{
+    font-size: 15px;
+}
+.psc-btn{
+    width: 28%;
+    font-size: 15px;
+}
+.download-contant h2 i {
+    font-size: 20px;
+}
+.download-contant p{
+    font-size: 15px;
+}
+.download-btn{
+    width: 40%;
+    font-size: 15px;
+}
+.footer-cstm i{
+    font-size: 15px;
+}
+.footer-cstm h6{
+    font-size: 15px;
+}
+}
+
+/* larg device */
+@media (min-width: 992.01px) and (max-width: 1200px){
+.about-contant h2 i {
+    font-size: 30px;
+}
+.card {
+    margin-top: 15px;
+    width: 90%;
+    margin-left: 18px;
+}
+.card-btn {
+    font-size: 14px;
+    width: 52%;
+    margin: 88px 42px;
+}
+.work-cstm img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+.work-contant h4 {
+    font-size: 18px;
+}
+.work-contant p {
+    font-size: 14px;
+}
+.card-body h5 {
+    font-size: 17px;
+}
+.card-body p {
+    font-size: 15px;
+}
+.hover-btn {
+    height: 58%;
+}
+.footer-cstm i{
+    font-size: 18px;
+}
+.footer-cstm h6{
+    font-size: 18px;
+}
+}
